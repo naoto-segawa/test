@@ -2,8 +2,8 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		String abc = "山田";
-		System.out.println(abc + "さん");
+		double a2 = (double)10/3;
+		System.out.println(a2);
 	}
 
 }
