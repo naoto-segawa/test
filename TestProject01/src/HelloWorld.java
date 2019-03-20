@@ -2,8 +2,12 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		double a2 = (double)10/3;
-		System.out.println(a2);
+		int i = 10;
+		do{
+			System.out.println(i);
+			i-=3;
+		}while(i>=1);
 	}
 
 }
+;
