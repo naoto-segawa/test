@@ -1,9 +1,0 @@
-
-public class HelloWorld {
-
-	public static void main(String[] args) {
-		boolean boo =ture;
-		System.out.println(boo);
-	}
-
-}
