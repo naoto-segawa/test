@@ -4,8 +4,8 @@ use testdb;
 
 create table test_table(
 user_id int,
-user_name varcher(255),
-password varcher(255)
+user_name varchar(255),
+password varchar(255)
 );
 
 insert into test_table values(1,"taro","123");
