@@ -4,16 +4,16 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 
-public class DBConnecter {
-	private static String driverName = "con.mysql.jdbc.Driver";
-	private static String url = "jdbc:mysql//localhost/logindb_segawa";
-	
+public class DBConnector {
+	private static String driverName = "com.mysql.jdbc.Driver";
+	private static String url = "jdbc:mysql://localhost/logindb_segawa";
+
 	private static String user = "root";
 	private static String password = "mysql";
-	
+
 	public Connection getConnection(){
 		Connection con = null;
-		
+
 		try{
 			Class.forName(driverName);
 			con = (Connection)DriverManager.getConnection(url,user,password);
@@ -22,7 +22,7 @@ public class DBConnecter {
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
-		
+
 		return con;
 	}
 }
