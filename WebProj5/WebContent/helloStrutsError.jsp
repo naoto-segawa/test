@@ -5,16 +5,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>INDEX</title>
+<title>HelloStrutsError</title>
 </head>
 <body>
-	<s:form action="HelloStrutsAction">
-		<s:submit value="HelloStruts" />
-	</s:form>
-
-	<s:form action="WelcomeAction">
-		<s:submit value="Welcome" />
-	</s:form>
-
+	<h1>エラーが発生しました</h1>
+	<br>
 </body>
 </html>
